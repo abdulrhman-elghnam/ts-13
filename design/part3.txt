@@ -1,0 +1,7 @@
+1. Inheritance: Admin inherits from User, reusing its attributes and methods.
+
+2. Composition: NoteBook contains multiple Note objects, representing a strong whole-part relationship.
+
+3. Aggregation: User has a collection of NoteBook objects, which can exist independently of the user.
+
+4. Association: Note is associated with User through the user attribute, which identifies the owner of the note.

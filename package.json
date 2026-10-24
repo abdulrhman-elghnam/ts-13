@@ -1,0 +1,15 @@
+{
+  "name": "dopamine",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start:dev": "concurrently -k \"tsc --watch\" \"node --watch ./dist/main.js\""
+  },
+  "dependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
